@@ -1,0 +1,50 @@
+Product Name,Category,Aisle,Aisle Number,Shelf Position,Stock Status,Quantity Available,Price,Deal Discount
+Whole Wheat Bread,Bakery,Aisle 4 - Bakery,4,Row 2 (Eye Level),In Stock,45,3.49,0
+Sourdough Loaf,Bakery,Aisle 4 - Bakery,4,Row 1 (Bottom),In Stock,22,4.99,10
+Chocolate Croissant (4pk),Bakery,Aisle 4 - Bakery,4,Row 3 (Middle),In Stock,17,5.49,0
+Bagels Plain (6pk),Bakery,Aisle 4 - Bakery,4,Row 2 (Eye Level),Low Stock,3,3.99,0
+Organic Whole Milk,Dairy,Aisle 1 - Dairy,1,Row 1 (Bottom),In Stock,28,4.29,0
+Greek Yogurt Tub,Dairy,Aisle 1 - Dairy,1,Row 2 (Eye Level),In Stock,33,5.99,0
+Cheddar Cheese Block,Dairy,Aisle 1 - Dairy,1,Row 2 (Eye Level),In Stock,20,6.49,15
+Unsalted Butter,Dairy,Aisle 1 - Dairy,1,Row 3 (Middle),Low Stock,4,4.79,0
+Large Eggs (Dozen),Dairy,Aisle 1 - Dairy,1,Row 1 (Bottom),In Stock,50,3.99,0
+Frozen Pepperoni Pizza,Frozen,Aisle 7 - Frozen,7,Row 3 (Middle),In Stock,12,7.99,0
+Premium Ice Cream Pint,Frozen,Aisle 7 - Frozen,7,Row 4 (Top),Low Stock,4,6.49,0
+Frozen Mixed Vegetables,Frozen,Aisle 7 - Frozen,7,Row 2 (Eye Level),In Stock,40,2.99,0
+Frozen French Fries,Frozen,Aisle 7 - Frozen,7,Row 2 (Eye Level),In Stock,31,3.49,20
+Paracetamol 500mg,Pharmacy,Aisle 12 - Pharmacy,12,Row 2 (Eye Level),In Stock,85,4.29,0
+Ibuprofen 200mg,Pharmacy,Aisle 12 - Pharmacy,12,Row 2 (Eye Level),In Stock,60,4.99,0
+Cough Syrup,Pharmacy,Aisle 12 - Pharmacy,12,Row 3 (Middle),Low Stock,2,7.49,0
+Adhesive Bandages,Pharmacy,Aisle 12 - Pharmacy,12,Row 1 (Bottom),In Stock,70,3.29,0
+Extra Virgin Olive Oil,Oils & Condiments,Aisle 3 - Oils & Condiments,3,Row 3 (Middle),Out of Stock,0,9.99,0
+Crunchy Peanut Butter,Oils & Condiments,Aisle 3 - Oils & Condiments,3,Row 2 (Eye Level),In Stock,19,4.49,0
+Tomato Ketchup,Oils & Condiments,Aisle 3 - Oils & Condiments,3,Row 2 (Eye Level),In Stock,44,2.99,0
+Soy Sauce,Oils & Condiments,Aisle 3 - Oils & Condiments,3,Row 3 (Middle),In Stock,26,3.49,0
+Fresh Bananas (Bunch),Produce,Produce Section - Island A,0,Bin 1,In Stock,60,1.99,0
+Red Apples (1kg),Produce,Produce Section - Island A,0,Bin 2,In Stock,54,3.29,0
+Baby Spinach,Produce,Produce Section - Island B,0,Bin 3,Low Stock,5,2.49,0
+Roma Tomatoes,Produce,Produce Section - Island B,0,Bin 4,In Stock,38,2.79,0
+Avocado (Each),Produce,Produce Section - Island A,0,Bin 5,In Stock,45,1.49,10
+Diet Cola 12-Pack,Beverages,Aisle 5 - Beverages,5,Row 1 (Bottom),Low Stock,3,6.99,0
+Orange Juice 1L,Beverages,Aisle 5 - Beverages,5,Row 2 (Eye Level),In Stock,29,3.99,0
+Sparkling Water 6-Pack,Beverages,Aisle 5 - Beverages,5,Row 2 (Eye Level),In Stock,41,4.49,0
+Ground Coffee 500g,Beverages,Aisle 5 - Beverages,5,Row 3 (Middle),In Stock,18,8.99,0
+Green Tea Bags (50ct),Beverages,Aisle 5 - Beverages,5,Row 3 (Middle),In Stock,25,5.49,0
+Dishwasher Pods (30ct),Household,Aisle 10 - Household,10,Row 2 (Eye Level),In Stock,15,9.49,0
+Paper Towels (6 Rolls),Household,Aisle 10 - Household,10,Row 1 (Bottom),In Stock,37,7.99,0
+Trash Bags (40ct),Household,Aisle 10 - Household,10,Row 2 (Eye Level),In Stock,22,6.49,0
+Aluminum Foil,Household,Aisle 10 - Household,10,Row 3 (Middle),Low Stock,6,4.29,0
+Potato Chips Party Size,Snacks,Aisle 6 - Snacks,6,Row 2 (Eye Level),In Stock,52,4.99,0
+Chocolate Chip Cookies,Snacks,Aisle 6 - Snacks,6,Row 2 (Eye Level),In Stock,48,3.79,15
+Trail Mix Bag,Snacks,Aisle 6 - Snacks,6,Row 3 (Middle),In Stock,30,5.29,0
+Popcorn Microwave (3pk),Snacks,Aisle 6 - Snacks,6,Row 1 (Bottom),In Stock,27,4.19,0
+Boneless Chicken Breast,Meat & Seafood,Aisle 8 - Meat & Seafood,8,Row 2 (Eye Level),In Stock,19,8.99,0
+Atlantic Salmon Fillet,Meat & Seafood,Aisle 8 - Meat & Seafood,8,Row 2 (Eye Level),Low Stock,4,12.99,0
+Ground Beef 500g,Meat & Seafood,Aisle 8 - Meat & Seafood,8,Row 3 (Middle),In Stock,24,7.49,0
+Shampoo 400ml,Personal Care,Aisle 9 - Personal Care,9,Row 2 (Eye Level),In Stock,33,6.99,0
+Toothpaste,Personal Care,Aisle 9 - Personal Care,9,Row 2 (Eye Level),In Stock,58,3.49,0
+Hand Sanitizer 250ml,Personal Care,Aisle 9 - Personal Care,9,Row 1 (Bottom),Out of Stock,0,4.49,0
+Deodorant Stick,Personal Care,Aisle 9 - Personal Care,9,Row 3 (Middle),In Stock,40,5.29,0
+Multi-Surface Cleaner,Cleaning,Aisle 11 - Cleaning,11,Row 2 (Eye Level),In Stock,29,4.99,0
+Laundry Detergent 2L,Cleaning,Aisle 11 - Cleaning,11,Row 1 (Bottom),In Stock,16,11.49,10
+Glass Cleaner Spray,Cleaning,Aisle 11 - Cleaning,11,Row 3 (Middle),Low Stock,5,3.99,0

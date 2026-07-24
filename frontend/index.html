@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Smart Assist &mdash; Kiosk</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div id="attract" class="attract">
+  <div class="attract-inner">
+    <div class="attract-badge">AISLE&nbsp;0</div>
+    <h1>Smart Assist</h1>
+    <p>Touch anywhere or start typing to find what you need.</p>
+    <div class="attract-deals" id="attractDeals"></div>
+  </div>
+</div>
+
+<div class="kiosk" id="kiosk">
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">SA</span>
+      <div class="brand-text">
+        <strong>Smart Assist</strong>
+        <span>Supermarket Kiosk</span>
+      </div>
+    </div>
+
+    <div class="ticker" id="dealsTicker" aria-label="Today's deals"></div>
+
+    <div class="topbar-right">
+      <select id="languageSelect" title="Response language">
+        <option value="en">English</option>
+        <option value="es">Espa&ntilde;ol</option>
+        <option value="hi">&#2361;&#2367;&#2306;&#2342;&#2368;</option>
+        <option value="fr">Fran&ccedil;ais</option>
+      </select>
+      <span class="clock" id="clock">--:--</span>
+    </div>
+  </header>
+
+  <main class="layout">
+
+    <!-- LEFT: search + categories -->
+    <section class="panel search-panel">
+      <div class="greeting" id="greeting">Welcome! What are you shopping for today?</div>
+
+      <label class="field">
+        <span>Your name (optional)</span>
+        <input id="nameInput" type="text" placeholder="e.g. Jordan" autocomplete="off" />
+      </label>
+
+      <label class="field">
+        <span>Search for an item</span>
+        <input id="queryInput" type="text" placeholder="Try &ldquo;ice cream&rdquo; or &ldquo;paracetamol&rdquo;" autocomplete="off" />
+      </label>
+
+      <button id="searchBtn" class="btn-primary">Find it for me</button>
+
+      <div class="categories" id="categoryChips"></div>
+
+      <div class="trending" id="trendingBox">
+        <h3>Trending searches today</h3>
+        <ul id="trendingList"><li class="muted">No searches yet.</li></ul>
+      </div>
+    </section>
+
+    <!-- CENTER: result -->
+    <section class="panel result-panel" id="resultPanel">
+      <div class="empty-state" id="emptyState">
+        <div class="sign-badge">?</div>
+        <p>Your item's aisle sign will appear here.</p>
+      </div>
+
+      <div class="result-card" id="resultCard" hidden>
+        <div class="sign-row">
+          <div class="sign-badge" id="aisleBadge">-</div>
+          <div class="sign-text">
+            <div class="product-name" id="productName">&mdash;</div>
+            <div class="product-loc" id="productLoc">&mdash;</div>
+          </div>
+          <div class="stock-pill" id="stockPill">&mdash;</div>
+        </div>
+
+        <p class="response-text" id="responseText"></p>
+
+        <div class="directions" id="directionsBox"></div>
+
+        <div class="deal-banner" id="dealBanner" hidden></div>
+
+        <div class="row-actions">
+          <button class="btn-secondary" id="addCartBtn">Add to shopping list</button>
+          <div class="feedback">
+            <span>Helpful?</span>
+            <button class="icon-btn" id="thumbUp" title="Helpful">&#128077;</button>
+            <button class="icon-btn" id="thumbDown" title="Not helpful">&#128078;</button>
+          </div>
+        </div>
+
+        <div class="suggestions" id="substitutesBox" hidden>
+          <h4>Try instead</h4>
+          <div class="chip-row" id="substitutesList"></div>
+        </div>
+
+        <div class="suggestions" id="crossSellBox" hidden>
+          <h4>You might also need</h4>
+          <div class="chip-row" id="crossSellList"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RIGHT: shopping list / route -->
+    <section class="panel cart-panel">
+      <h3>Your shopping route</h3>
+      <p class="muted small">Items are ordered by aisle so you walk the store once.</p>
+      <ol id="cartList" class="cart-list"><li class="muted">List is empty.</li></ol>
+      <div class="cart-total">
+        <span>Total</span>
+        <strong id="cartTotal">$0.00</strong>
+      </div>
+      <button class="btn-ghost" id="clearCartBtn">Clear list</button>
+    </section>
+
+  </main>
+
+  <footer class="statusbar">
+    <span id="statusText">Ready</span>
+    <span id="modeText">AI-assisted mode</span>
+  </footer>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
