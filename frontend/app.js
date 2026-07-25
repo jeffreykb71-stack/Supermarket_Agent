@@ -1,4 +1,4 @@
-const API = ""; // same-origin, FastAPI serves this file too
+const API = "https://supermarket-agent.onrender.com"; // same-origin, FastAPI serves this file too
 
 let sessionId = localStorage.getItem("kiosk_session_id");
 let idleTimer = null;
