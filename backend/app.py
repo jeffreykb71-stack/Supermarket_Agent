@@ -226,8 +226,8 @@ class KioskRequestHandler(BaseHTTPRequestHandler):
 
 def main() -> None:
     port = int(os.environ.get("PORT", "8000"))
-    server = ThreadingHTTPServer(("127.0.0.1", port), KioskRequestHandler)
-    print(f"Supermarket kiosk running at http://127.0.0.1:{port}")
+    server = ThreadingHTTPServer(("0.0.0.0", port), KioskRequestHandler)
+    print(f"Supermarket kiosk running at http://0.0.0.0:{port}")
     server.serve_forever()
 
 
